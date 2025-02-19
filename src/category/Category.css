@@ -1,0 +1,35 @@
+.category_contaner {
+  width: 100%;
+  height: auto;
+  background-color: #edf2f7;
+}
+.category_maxwidth {
+  margin: auto auto;
+  max-width: 1024px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.category_card {
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.category_flex {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin: 20px;
+ 
+}
+.category_card p{
+    color: #2D3748;
+    font-weight: 600;
+    font-size: 16px;
+}

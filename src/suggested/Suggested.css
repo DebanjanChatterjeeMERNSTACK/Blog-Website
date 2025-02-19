@@ -1,0 +1,63 @@
+.suggested_contaner {
+  width: 100%;
+  height: auto;
+  background-color: #f8f8f8;
+}
+.suggested_maxwidth {
+  margin: auto auto;
+  max-width: 1024px;
+  height: auto;
+  /* background-color: aqua; */
+}
+.suggested_heading h2 {
+  padding-left: 20px;
+  margin-left: 10px;
+  border-left: 5px solid #a3bffa;
+  border-radius: 5px;
+  color: #2d3748;
+}
+.suggested_heading {
+  padding-top: 30px;
+}
+.card_image {
+  width: 270px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.card {
+  width: 310px;
+  height: 490px;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+.card span {
+  background-color: #e2e8f0;
+  color: rgb(106, 119, 136);
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.card h3 {
+  color: rgb(45, 55, 72);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.card p {
+  color: rgb(113, 128, 150);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.suggested_flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

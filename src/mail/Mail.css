@@ -1,0 +1,52 @@
+.mail_contaner{
+    width: 100%;
+    height: 80vh;
+    background-color: #F8F8F8;
+
+}
+.mail_maxwidth{
+    max-width: 1024px;
+    height: 80vh;
+    margin: auto auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail_contant{
+    width: 1024px;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.mail_contant h2{
+  color:rgb(45, 55, 72);
+  font-weight: 700;
+}
+.mail_contant p{
+ color: rgb(113, 128, 150);
+ font-weight: 400;
+ margin-top: 10px;
+}
+.mail_contant input{
+    margin-top: 20px;
+    background-color: #E2E8F0;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 270px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.mail_contant input:focus{
+    outline: none;
+}
+.mail_contant input::placeholder {
+    color:#91959b;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+}

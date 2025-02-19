@@ -1,0 +1,38 @@
+.footer_contaner{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+
+}
+.footer_maxwidth{
+   max-width: 1024px;
+   height:auto;
+   margin: auto auto; 
+}
+.footer_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.footer_About p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(113, 128, 150);
+   margin-top: 10px;
+}
+.Quick_links h4{
+   color: #4e5868;
+}
+.Quick_links p{
+    font-size: 16px;
+  font-weight: 400;
+  color: rgb(113, 128, 150);
+   margin-top: 10px;
+}
+
+
+

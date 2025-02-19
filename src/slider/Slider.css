@@ -1,0 +1,11 @@
+.slider_contaner{
+    width: 100%;
+    height: auto;
+    background-color:#EDF2F7 ;
+}
+.slider_maxwidth{
+    margin: auto auto;
+    max-width: 1024px;
+    height: auto;
+    padding-top: 20px;
+}
