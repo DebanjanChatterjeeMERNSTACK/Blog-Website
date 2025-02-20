@@ -24,10 +24,10 @@ const Sliderimage = () => {
         <div className="slider_maxwidth">
           <Slider {...settings}>
             <div>
-              <img src={img} style={{ width: "1024px", height: "480px", borderRadius:"10px" }} />
+              <img src={img} style={{ width: "1024px", height: "480px", borderRadius:"5px" }} />
             </div>
             <div>
-              <img src={img} style={{ width: "1024px", height: "480px" ,borderRadius:"10px"}} />
+              <img src={img} style={{ width: "1024px", height: "480px" ,borderRadius:"5px"}} />
             </div>
           </Slider>
         </div>
