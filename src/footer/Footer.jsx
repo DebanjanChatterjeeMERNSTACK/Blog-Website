@@ -1,9 +1,10 @@
-import "./Footer.css";
-import logo from "../assets/logo.jpg";
-import fb from "../assets/facebook.png";
-import git from "../assets/git.png";
-import youtube from "../assets/youtube.png"
+import "./Footer.css"
 
+import { FaFacebookSquare ,FaTwitterSquare ,FaLinkedin ,FaInstagramSquare } from "react-icons/fa";
+import { IoLocationOutline } from "react-icons/io5";
+import { HiOutlineMail } from "react-icons/hi";
+import { MdOutlineLocalPhone } from "react-icons/md";
+import logo from "../assets/logo.jpg"
 const Footer = () => {
   return (
     <>
@@ -30,9 +31,24 @@ const Footer = () => {
             </div>
             <div className="Quick_links">
                 <h4>Social Links</h4>
-                <p><img src={fb}/></p>
-                <p><img src={git}/></p>
-                <p><img src={youtube}/></p>
+                <div className="contact_social">
+                    <IoLocationOutline style={{color:"#4199E2"}}/>
+                    <h6>Barasat</h6>
+                </div>
+                <div className="contact_social">
+                    <HiOutlineMail style={{color:"#4199E2"}}/>
+                    <h6>text@gmail.com</h6>
+                </div>
+                <div className="contact_social">
+                    <MdOutlineLocalPhone style={{color:"#4199E2"}}/>
+                    <h6>+91 1234567891</h6>
+                </div>
+                <div className="contact_social">
+                <FaFacebookSquare  style={{fontSize:"25px" ,color:"#2D3748"}}/>
+                <FaTwitterSquare  style={{fontSize:"25px" ,color:"#2D3748"}}/>
+                <FaLinkedin  style={{fontSize:"25px" ,color:"#2D3748"}}/>
+                <FaInstagramSquare  style={{fontSize:"25px" ,color:"#2D3748"}}/>
+                </div>
             </div>
           </div>
         </div>
