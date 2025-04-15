@@ -11,10 +11,12 @@ const Header=()=>{
                 <div className="">
                      <img src={logo} />
                 </div>
+                <NavLink to={"/search"}>
                 <div className="search_flex">
                     <div><IoMdSearch style={{ fontSize:"25px",color:"#718096",paddingTop:"4px" }}/></div>
                     <p>Discover news, artical and more</p>
                 </div>
+                </NavLink>
                 <div className="menu_flex">
                     <NavLink to={"/"}><p>Home</p></NavLink>
                     <NavLink to={"/blog"}><p>Blog</p></NavLink>
